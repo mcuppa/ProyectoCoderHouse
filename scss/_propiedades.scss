@@ -1,0 +1,34 @@
+  /* Propiedades <--------------------------------------------------------------------- */
+  .imagenTarjeta {
+    max-width: $ancho * 6 - 14;
+    max-height: $alto * 4 - 10;
+}
+
+.tarjeta {
+    background-color:silver;
+    margin: 1rem;
+    max-height: $alto * 9;
+    
+}
+
+.tarjeta__lista {
+    list-style: none;
+}
+
+.encabezado {
+    padding-bottom: 5rem;
+}
+
+.conlumnaBusqueda {
+    max-width: $ancho * 2;
+    max-height: 70vh;
+    border: 1px solid black;
+}
+
+.contenedorCard {
+    max-width: $ancho * 8;
+    margin-left: 3rem;
+}
+
+
+/* Propiedades Fin <---------------------------------------------------------------------- */

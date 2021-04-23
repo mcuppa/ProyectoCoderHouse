@@ -1,0 +1,18 @@
+@for $i from 1 through 3 {
+    .pad-#{$i} { padding-bottom: 1em * $i; }
+  }
+
+
+ $fondo: (
+        color1: #274472,
+        color2:  #C3E0E5,
+        color3: #5885AF
+); 
+
+
+@each $red, $color in $fondo {
+   .bgc--#{$red} {
+       background-color: $color;
+   }
+}
+
